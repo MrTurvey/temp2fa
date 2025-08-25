@@ -1,0 +1,27 @@
+# 2FA Manager Dependencies
+
+# Core TOTP functionality
+pyotp>=2.8.0
+
+# Image processing for QR codes  
+Pillow>=10.0.0
+
+# QR code detection
+opencv-python>=4.8.0.74
+
+# Array processing (required by OpenCV)
+numpy>=1.24.0
+
+# Note: tkinter is required but handled differently per OS:
+# - Windows/macOS: Usually included with Python
+# - Linux: Install via system package manager (see README.md)
+
+# System Dependencies (install via package manager on Linux):
+# Ubuntu/Debian: sudo apt-get install python3-tk python3-dev xclip wl-clipboard
+# CentOS/RHEL/Fedora: sudo yum install tkinter python3-devel xclip wl-clipboard  
+# Arch Linux: sudo pacman -S tk python xclip wl-clipboard
+# openSUSE: sudo zypper install python3-tk python3-devel xclip wl-clipboard
+
+# Note: Clipboard tools needed for QR code pasting on Linux:
+# - xclip: For X11 clipboard support
+# - wl-clipboard: For Wayland clipboard support
