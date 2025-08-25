@@ -1,6 +1,6 @@
 # 🔐 Temp 2FA Manager
 
-Manage temporary 2FA codes on a PC, rather than bloating your phones authentication apps and forgetting about them.
+Manage temporary 2FA codes on a PC, rather than bloating your phones authentication apps and forgetting.
 
 ## ✨ Features
 
